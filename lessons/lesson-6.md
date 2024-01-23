@@ -22,10 +22,10 @@ Referencia mais avançada: https://git-scm.com/docs/git-revert
 
 No final dessa aula temos a instrução errada pra seguir pra `lesson-6`, mas na verdade deveríamos utilizar `lesson-7`. Vamos reverter a mudança que introduziu esse problema.
 
-1. Vamos primeiro usar o `git log --one-line` pra ver o histórico de commits e vamos perceber que temos 2 commits nessa branch atual
+1. Vamos primeiro usar o `git log --one-line` pra ver o histórico de commits e vamos perceber que temos alguns commits nessa branch atual
 2. Vamos copiar o hash do commit `chore: lesson 6 reference` e usar o comando `git revert <hash do commit>` pra reverter o commit `chore: lesson 6 reference`
 3. Vamos usar o `git log --one-line` pra ver o histórico de commits e vamos perceber que temos 3 commits e o estado correto da branch `lesson-6` com o `lesson-6.md` apontando pra branch `lesson-7`
 
 --- 
 
-Podemos seguir para a próxima aula na branch `lesson-7`.
+Podemos seguir para a próxima aula na branch `lesson-6`.
